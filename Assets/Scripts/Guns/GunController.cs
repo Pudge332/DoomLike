@@ -115,7 +115,7 @@ public class GunController : MonoBehaviour
     }
     private void Fire()
     {
-        Debug.Log("SPAWN BULLET");
+        //Debug.Log("SPAWN BULLET");
         GameObject bulletOnScene = Instantiate(bullet, startBulletPos.position, startBulletPos.rotation);
         if(drobPositions != null)
         {

@@ -236,7 +236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireRate: 1
   gunAnimatorController: {fileID: 4676990373339715514}
-  bullet: {fileID: 543734137453783182, guid: d1bd9a6a06cbad8498f109a1592f24f3, type: 3}
+  bullet: {fileID: 543734137453783182, guid: 22cfdf87baab55b4bbefbd88748619b0, type: 3}
   startBulletPos: {fileID: 3673548185249160442}
   drobPositions:
   - {fileID: 6578725048413436741}

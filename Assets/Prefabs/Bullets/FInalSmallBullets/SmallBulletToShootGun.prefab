@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 4899765595403703144}
   - component: {fileID: -3344325614290654766}
   - component: {fileID: -4621988618463332540}
-  - component: {fileID: 117885588023695997}
+  - component: {fileID: 7912349231289590134}
   m_Layer: 0
-  m_Name: SmallBullet
+  m_Name: SmallBulletToShootGun
   m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -183,8 +183,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedBullet: 95
-  damage: 15
---- !u!135 &117885588023695997
+  damage: 35
+--- !u!135 &7912349231289590134
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,7 +195,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &7284977052570246831
 PrefabInstance:

@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 1147266950210325364}
   - component: {fileID: 8005323814851559176}
   - component: {fileID: 615272392123393445}
-  - component: {fileID: 6586330174751426044}
+  - component: {fileID: -7670404013877139428}
+  - component: {fileID: 6524175234489838616}
   m_Layer: 0
   m_Name: PlasmaBullet
   m_TagString: Untagged
@@ -61,7 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 5
---- !u!114 &6586330174751426044
+--- !u!114 &-7670404013877139428
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70,10 +71,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 4478094753537128722}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5629c0664213b3f4a94fa1d9e3a93e58, type: 3}
+  m_Script: {fileID: 11500000, guid: 6fa973707d95d2a4586d5b30d520f612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 55
+--- !u!114 &6524175234489838616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478094753537128722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00636882d86073b419045ef9a9ff9259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedBullet: 25
+  damage: 15
 --- !u!1001 &2804964683624241844
 PrefabInstance:
   m_ObjectHideFlags: 0
