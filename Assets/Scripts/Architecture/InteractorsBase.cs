@@ -14,16 +14,8 @@ public class InteractorsBase
 
     public void CreateAllInteractors()
     {
-        //OnCreateInteractor<CurrencyInteractor>();
         _interactorsDict = _sceneConfig.CreateAllInteractors();
     }
-
-    //private void OnCreateInteractor<T>() where T : Interactor, new()
-    //{
-    //    var interactor = new T();
-    //    var TypeInteractor = typeof(T);
-    //    _interactorsDict.Add(TypeInteractor, interactor);
-    //}
 
     public void SendOnCreateToAllInteractors()
     {

@@ -23,6 +23,7 @@ public class BinaryStorageService : IStorageService
                 Save(new Storage());
                 return new Storage();
             }
+            file.Position = 0;
             object loadedData = new BinaryFormatter().Deserialize(file);
             if(loadedData is Storage storage)
             {

@@ -9,22 +9,13 @@ public class RepositoriesBase
     private SceneConfig _sceneConfig;
     public RepositoriesBase(SceneConfig sceneConfig)
     {
-        //_repositoriesDict = new Dictionary<Type, Repository>(); // !Лучше сразу указать размерность словаря для экономии памяти!
         _sceneConfig = sceneConfig;
     }
 
     public void CreateAllRepositorys()
     {
-        //OnCreateRepository<CurrencyRepository>();
         _repositoriesDict = _sceneConfig.CreateAllRepositories();
     }
-
-    //private void OnCreateRepository<T>() where T : Repository, new()
-    //{
-    //    var Repository = new T();
-    //    var TypeRepository = typeof(T);
-    //    _repositoriesDict.Add(TypeRepository, Repository);
-    //}
 
     public void SendOnCreateToAllRepositorys()
     {

@@ -13,6 +13,7 @@ public class SceneConfigExample : SceneConfig
         var interactorsDict = new Dictionary<Type, Interactor>();
 
         CreateInteractor<CurrencyInteractor>(interactorsDict);
+        CreateInteractor<StorageInteractor>(interactorsDict);
 
         return interactorsDict;
     }
@@ -22,6 +23,7 @@ public class SceneConfigExample : SceneConfig
         var repositoryDict = new Dictionary<Type, Repository>();
 
         CreateRepository<CurrencyRepository>(repositoryDict);
+        CreateRepository<StorageRepository>(repositoryDict);
 
         return repositoryDict;
     }

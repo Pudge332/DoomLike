@@ -13,7 +13,6 @@ public class CurrencyInteractor : Interactor
     public override void OnCreate()
     {
         base.OnCreate();
-        //_repository = ArchTester.repositoriesBase.GetRepository<CurrencyRepository>();
         _repository = Game.GetRepository<CurrencyRepository>();
     }
 
