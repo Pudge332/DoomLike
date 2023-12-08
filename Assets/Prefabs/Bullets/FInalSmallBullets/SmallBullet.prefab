@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -3344325614290654766}
   - component: {fileID: -4621988618463332540}
   - component: {fileID: 117885588023695997}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallBullet
   m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
@@ -283,6 +283,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: smalBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 98add21761bf16444b1dd744088b2199,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 98add21761bf16444b1dd744088b2199,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98add21761bf16444b1dd744088b2199, type: 3}

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 8005323814851559176}
   - component: {fileID: 615272392123393445}
   - component: {fileID: -7670404013877139428}
-  - component: {fileID: 6524175234489838616}
+  - component: {fileID: 4733912256722364273}
   m_Layer: 8
-  m_Name: PlasmaBullet
+  m_Name: ScullDemonShell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4478094753537128722}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2407039833706675551}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fa973707d95d2a4586d5b30d520f612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6524175234489838616
+--- !u!114 &4733912256722364273
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,10 +83,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4478094753537128722}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00636882d86073b419045ef9a9ff9259, type: 3}
+  m_Script: {fileID: 11500000, guid: ec4a76083cd7b0042814819f2ad292d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedBullet: 25
+  speedBullet: 9
   damage: 15
 --- !u!1001 &2804964683624241844
 PrefabInstance:
@@ -174,7 +174,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 99b44b3ad3dabf7439927c43db74b556, type: 2}
+      objectReference: {fileID: 2100000, guid: f6525fb0e3503a14a8b0a5f6c37a5d43, type: 2}
     - target: {fileID: 919132149155446097, guid: fdf84eedb09644c47af0bd406dc115c6,
         type: 3}
       propertyPath: m_Name

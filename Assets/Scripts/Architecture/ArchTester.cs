@@ -15,13 +15,13 @@ public class ArchTester : MonoBehaviour
         {
             return;
         }
-        if(Input.GetKeyDown(KeyCode.A))
+        if(Input.GetKeyDown(KeyCode.Tab))
         {
             Currency.AddCurrency(this, 5);
             Debug.Log($"Add : Currency has {Currency.CurrencyValue}");
         }
 
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.CapsLock))
         {
             Currency.Spend(this, 5);
             Debug.Log($"Spend : Currency has {Currency.CurrencyValue}");
